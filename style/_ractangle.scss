@@ -1,3 +1,5 @@
+
+
 .ractangle {
     width: 1281px;
     height: 600px;
@@ -39,6 +41,7 @@
         font-size: 18px;
         line-height: 23px;
         padding-left: 17px;
+        padding-right: 80px;
         position: absolute;
         }
 
@@ -47,11 +50,13 @@
         height: 61px;
         background: rgba(66, 0, 255, 0.8);
         border-radius: 8px;
+        border-color: rgba(66, 0, 255, 0.8);;
         font-size: 20px;
         z-index: 1;
         position: relative;
-        margin-left: 437px;
+        margin-left: 438px;
     }
+
 
     &-shadow {
         width: 1281px;

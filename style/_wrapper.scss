@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'DMSans';
+    src: url(./fonts/DMSans-regular.ttf);
+}
+
+.wrapper {
+    width: 1440px;
+    height: 3872px;
+    font-family: 'DMSans';
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}

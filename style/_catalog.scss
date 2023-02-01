@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+%products {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.catalog {
+    width: 1274px;
+    height: 804px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex; 
+
+    &-menu {
+        width: 380px;
+        height: 732px;
+        background: #F7F7F7;
+        border-radius: 5px;
+    }
+
+    &-choise {
+
+        &-menu {
+            width: 358px;
+            height: 76px;
+            display: flex;
+            padding-top: 10px;
+            padding-left: 11px;
+            border-radius: 5px;
+
+            &:hover {
+                background-color: #4200FF;
+                color: white;
+            }
+        }
+    }
+
+    &-product {
+        width: 36px;
+        height: 36px;
+        margin: 15px;
+
+        &-title {
+            @extend %products;
+            margin-right: 159px;
+
+            &-content {
+                @extend %products;
+                margin-right: 184px;
+
+                &-go {
+                    @extend %products;
+                    margin-right: 139px;
+
+                    &-site {
+                        @extend %products;
+                        margin-right: 91px;
+                    }
+                }
+            }
+            
+            &-go {
+                font-size: 22px;
+                display: flex; 
+                align-items: center;
+            }
+        }
+
+    }
+
+    &-width {
+        width: 894px;
+        height: 734px;
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 20px;
+
+    }
+
+    &-cards {
+        display: flex;
+    }
+
+    &-card {
+        width: 278px;
+        height: 356px;
+
+        &-img {
+            width: 128px;
+            height: 186px;
+
+
+            &-size {
+                width: 278px;
+                height: 229px;
+                background: #F7F7F7;
+                border-radius: 5px 5px 0px 0px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+
+        &-content {
+            width: 222px;
+            margin: 20px 20px;
+
+            &-title {
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 22px;
+                font-weight: bold;
+            }
+        }
+
+    }
+
+    &-popularity {
+        display: flex;
+        gap: 83px;
+
+        &-stars {
+            width: 92px;
+            height: 16px;
+            margin-top: 24px;
+        }
+
+        &-price {
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 23px;
+            color: #4200FF;
+            margin-top: 20px;
+        }
+    }
+}

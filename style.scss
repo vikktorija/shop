@@ -1,5 +1,9 @@
+@import "./style/wrapper";
+
 @import "./style/_header.scss";
 
-@import "./ractangle";
+@import "./style/ractangle";
 
 @import "./style/cards";
+
+@import "./style/catalog";
