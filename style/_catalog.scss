@@ -12,6 +12,15 @@
     align-items: center;
 }
 
+%background {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+
 .catalog {
     width: 1274px;
     height: 804px;
@@ -27,6 +36,9 @@
     }
 
     &-choise {
+
+        &-size {
+        }
 
         &-menu {
             width: 358px;
@@ -76,11 +88,6 @@
 
     }
 
-    &-width {
-        width: 894px;
-        height: 734px;
-
-    }
 
     &-cards {
         width: 894px;
@@ -88,6 +95,13 @@
         display: flex;
         flex-wrap: wrap;
         gap: 20px;
+
+        &-primer {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-left: 20px;
+        }
     }
 
     &-card {
@@ -115,7 +129,6 @@
             margin: 20px 20px;
 
             &-title {
-                font-weight: 500;
                 font-size: 18px;
                 line-height: 22px;
                 font-weight: bold;
@@ -140,6 +153,69 @@
             line-height: 23px;
             color: #4200FF;
             margin-top: 20px;
+        }
+    }
+
+    &-navigation {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        padding-top: 40px;
+
+        &-text {
+            color: white;
+            font-size: 14px;
+            line-height: 20px;
+            font-weight: bold;
+
+            &-one {
+                color: #4200FF;
+                font-weight: bold; 
+            }
+
+            &-end {
+                color: #C4CDD5;
+                font-size: 14px;
+                line-height: 20px;
+                font-weight: bold;
+            }
+        }
+        
+        &-background {
+            @extend %background;
+            background-color: #919EAB;
+            border-color: #919EAB;
+
+            &-end {
+                @extend %background;
+                border: 1px solid #DFE3E8;
+            }
+
+            &-black {
+                @extend %background;
+                border: 1px solid #DFE3E8;
+                font-size: 14px;
+                line-height: 20px;
+                font-weight: bold;
+            }
+
+            &-one {
+                @extend %background;
+                border: 1px solid #4200FF;
+            }
+        }
+
+        &-content {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+
+            &-title {
+                background: #919EAB;
+                opacity: 0.5;
+                border-radius: 4px;
+
+            }
         }
     }
 }
