@@ -238,12 +238,13 @@ a {
 .catalog-width {
   width: 894px;
   height: 734px;
-  display: flex;
-  flex-direction: row-reverse;
-  gap: 20px;
 }
 .catalog-cards {
+  width: 894px;
+  height: 734px;
   display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 .catalog-card {
   width: 278px;

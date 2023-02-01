@@ -79,14 +79,15 @@
     &-width {
         width: 894px;
         height: 734px;
-        display: flex;
-        flex-direction: row-reverse;
-        gap: 20px;
 
     }
 
     &-cards {
+        width: 894px;
+        height: 734px;
         display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
     }
 
     &-card {
