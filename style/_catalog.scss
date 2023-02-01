@@ -35,23 +35,17 @@
         border-radius: 5px;
     }
 
-    &-choise {
+    &-choise-menu {
+        width: 358px;
+        height: 76px;
+        display: flex;
+        padding-top: 10px;
+        padding-left: 11px;
+        border-radius: 5px;
 
-        &-size {
-        }
-
-        &-menu {
-            width: 358px;
-            height: 76px;
-            display: flex;
-            padding-top: 10px;
-            padding-left: 11px;
-            border-radius: 5px;
-
-            &:hover {
-                background-color: #4200FF;
-                color: white;
-            }
+        &:hover {
+            background-color: #4200FF;
+            color: white;
         }
     }
 
@@ -107,6 +101,7 @@
     &-card {
         width: 278px;
         height: 356px;
+
 
         &-img {
             width: 128px;
