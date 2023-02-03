@@ -529,4 +529,57 @@ a {
   line-height: 23px;
   color: #4200FF;
   margin-top: 20px;
+}
+
+.brand {
+  width: 1280px;
+  padding-top: 80px;
+  margin: auto;
+}
+.brand-content {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 42px;
+}
+.brand-content-cards {
+  width: 1280px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 17px;
+  padding-top: 30px;
+}
+.brand-content-card {
+  width: 305px;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #F7F7F7;
+  border-radius: 5px;
+}
+.brand-content-car {
+  display: flex;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 42px;
+  margin-left: 30px;
+  padding-bottom: 70px;
+}
+.brand-content-car-chevrolet {
+  display: flex;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 42px;
+  margin-left: 30px;
+  padding-bottom: 5px;
+}
+.brand-content-car-end {
+  padding-top: 50px;
+}
+.brand-content-car-end-chevrolet {
+  padding-top: 40px;
+}
+.brand-mark {
+  width: 103px;
+  height: 120px;
 }/*# sourceMappingURL=style.css.map */
