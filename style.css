@@ -414,4 +414,119 @@ a {
 .service-24 {
   font-size: 36px;
   line-height: 47px;
+}
+
+.reklama {
+  width: 1280px;
+  height: 358px;
+  background: #F7F7F7;
+  border-radius: 5px;
+  margin: auto;
+  display: flex;
+}
+.reklama-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+  padding-left: 40px;
+}
+.reklama-content-title {
+  width: 530px;
+  margin-right: 20px;
+  font-weight: 700;
+  font-size: 37px;
+  line-height: 47px;
+}
+.reklama-btn {
+  width: 210px;
+  height: 58px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border-radius: 5px;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 36px;
+}
+.reklama-car {
+  width: 712px;
+  height: 358px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: flex-end;
+}
+.reklama-instrument {
+  margin: auto;
+  width: 1280px;
+  padding-top: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+.reklama-instrument-content {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 42px;
+}
+.reklama-instrument-content-go {
+  display: flex;
+  gap: 16px;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 36px;
+  color: rgba(0, 0, 0, 0.9);
+}
+.reklama-cards {
+  width: 1280px;
+  margin: auto;
+  display: flex;
+  gap: 20px;
+  padding-top: 32px;
+}
+.reklama-card {
+  width: 304px;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+.reklama-card-img {
+  width: 165px;
+  height: 190px;
+}
+.reklama-card-img-background {
+  width: 304px;
+  height: 229px;
+  background: #F7F7F7;
+  border-radius: 5px 5px 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.reklama-card-content {
+  min-height: 127px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+}
+.reklama-card-content-title {
+  font-size: 17px;
+  line-height: 22px;
+  font-weight: 500;
+}
+.reklama-popularity {
+  display: flex;
+  gap: 83px;
+}
+.reklama-popularity-stars {
+  width: 92px;
+  height: 16px;
+  margin-top: 24px;
+}
+.reklama-popularity-price {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  color: #4200FF;
+  margin-top: 20px;
 }/*# sourceMappingURL=style.css.map */
