@@ -5,11 +5,12 @@
     height: 600px;
     margin-left: auto;
     margin-right: auto;
-    background-color: #F5F5F5;
     border-radius: 10px;
-    background-image: url(img/wheels.png); 
-    background-repeat: no-repeat;
-    background-position: 550px 95px;
+    background: 
+        url(img/wheels.png) no-repeat 550px 95px,
+        url(../img/shadow.png) no-repeat 650px 450px;
+    background-color: #F5F5F5;
+
 
     &-content {
         padding-top: 141px;

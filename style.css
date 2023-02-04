@@ -68,11 +68,9 @@ a {
   height: 600px;
   margin-left: auto;
   margin-right: auto;
-  background-color: #F5F5F5;
   border-radius: 10px;
-  background-image: url(img/wheels.png);
-  background-repeat: no-repeat;
-  background-position: 550px 95px;
+  background: url(img/wheels.png) no-repeat 550px 95px, url(../img/shadow.png) no-repeat 650px 450px;
+  background-color: #F5F5F5;
 }
 .ractangle-content {
   padding-top: 141px;
@@ -174,7 +172,7 @@ a {
   font-weight: 500;
 }
 
-.catalog-product-title-content-go-site, .catalog-product-title-content-go, .catalog-product-title-content, .catalog-product-title {
+.catalog-product-title {
   font-weight: 500;
   font-size: 22px;
   line-height: 20px;
@@ -224,6 +222,10 @@ a {
   padding-top: 21px;
 }
 .catalog-choise-menu:hover {
+  background-color: #4200FF;
+  color: white;
+}
+.catalog-choise-menu a:hover {
   background-color: #4200FF;
   color: white;
 }
@@ -586,6 +588,7 @@ a {
   height: 311px;
   background: #2F2F2F;
   display: flex;
+  justify-content: center;
 }
 .black-content {
   display: flex;
@@ -609,12 +612,10 @@ a {
   color: white;
 }
 .black-block {
-  width: 216px;
   margin-right: 80px;
 }
 .black-block-two {
   width: 250px;
-  max-height: 120px;
   margin-right: 216px;
 }
 .black-paragraph {
@@ -623,6 +624,7 @@ a {
   line-height: 31px;
   color: #FFFFFF;
   padding-top: 43px;
+  margin-bottom: 20px;
 }
 .black-paragraph-content {
   font-weight: 700;
@@ -631,4 +633,20 @@ a {
   color: #FFFFFF;
   width: 216px;
   height: 120px;
+}
+.black-paragraph-content-two {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 200%;
+  color: #FFFFFF;
+  height: 120px;
+}
+.black-socseti {
+  width: 30px;
+  height: 30px;
+}
+.black-socseti-flex {
+  display: flex;
+  justify-content: flex-end;
+  gap: 26px;
 }/*# sourceMappingURL=style.css.map */

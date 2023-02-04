@@ -3,6 +3,7 @@
     height: 311px;
     background: #2F2F2F;
     display: flex;
+    justify-content: center;
 
     &-content {
         display: flex;
@@ -30,12 +31,10 @@
     }
 
     &-block {
-        width: 216px;
         margin-right: 80px;
 
         &-two {
             width: 250px;
-            max-height: 120px;
             margin-right: 216px;
         }
     }
@@ -46,6 +45,7 @@
         line-height: 31px;
         color: #FFFFFF;
         padding-top: 43px;
+        margin-bottom: 20px;
 
         &-content {
             font-weight: 700;
@@ -54,6 +54,25 @@
             color: #FFFFFF;
             width: 216px;
             height: 120px;
+
+            &-two {
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 200%;
+                color: #FFFFFF;
+                height: 120px;
+            }
+        }
+    }
+
+    &-socseti {
+        width: 30px;
+        height: 30px;
+        
+        &-flex {
+            display: flex;
+            justify-content: flex-end;
+            gap: 26px;
         }
     }
 }

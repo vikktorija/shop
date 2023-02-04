@@ -55,6 +55,11 @@
             color: white;
         }
 
+        & a:hover {
+            background-color: #4200FF;
+            color: white;
+        }
+
         &-products {
             display: flex;
         }
@@ -71,15 +76,12 @@
 
             &-content {
                 margin-right: 184px;
-                @extend %products;
 
                 &-go {
                     margin-right: 139px;
-                    @extend %products;
 
                     &-site {
                         margin-right: 91px;
-                        @extend %products;
                     }
                 }
             }
