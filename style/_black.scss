@@ -1,0 +1,59 @@
+.black {
+    width: 1440px;
+    height: 311px;
+    background: #2F2F2F;
+    display: flex;
+
+    &-content {
+        display: flex;
+
+        &-title {
+            width: 147px;
+            display: flex;
+            gap: 10px;
+            flex-direction: column;
+            margin-right: 115px;
+            padding-top: 30px;
+        }
+    }
+
+    &-logo {
+        width: 106px;
+        height: 47px;
+    }
+
+    &-phone {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 21px;
+        color: white;
+    }
+
+    &-block {
+        width: 216px;
+        margin-right: 80px;
+
+        &-two {
+            width: 250px;
+            max-height: 120px;
+            margin-right: 216px;
+        }
+    }
+
+    &-paragraph {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 31px;
+        color: #FFFFFF;
+        padding-top: 43px;
+
+        &-content {
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 200%;
+            color: #FFFFFF;
+            width: 216px;
+            height: 120px;
+        }
+    }
+}

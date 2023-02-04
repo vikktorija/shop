@@ -14,6 +14,7 @@
             flex-wrap:wrap;
             gap: 17px;
             padding-top: 30px;
+            padding-bottom: 120px;
         }
 
         &-card {
@@ -32,19 +33,17 @@
             font-size: 32px;
             line-height: 42px;
             margin-left: 30px;
-            padding-bottom: 70px;
 
             &-chevrolet {
                 display: flex;
                 font-weight: 700;
                 font-size: 32px;
                 line-height: 42px;
-                margin-left: 30px;
+                margin-left: 10px;
                 padding-bottom: 5px;
             }
 
             &-end {
-                padding-top: 50px;
 
                 &-chevrolet {
                     padding-top: 40px;
