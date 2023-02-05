@@ -19,7 +19,7 @@
 .bmw {
     width: 1280px;
     margin: auto;
-    padding-top: 40px;
+    padding-top: 10px;
 
     &-flex {
         display: flex;
@@ -115,6 +115,7 @@
         height: 90px;
         display: flex;
         padding-left: 10px;
+        margin-bottom: 60px;
 
         &-shopping {
             display: flex;
@@ -130,7 +131,7 @@
                 justify-content: center;
                 align-items: center;
                 gap: 13px;
-                margin-top: 39px;
+                margin-top: 38px;
 
                 &:hover {
                     background-color: #4200FF;
